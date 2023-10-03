@@ -15,7 +15,7 @@
 #   - stellar：stellar主题
 # 支持配置多个友链页面并指定不同主题策略，每个用{}分隔，它们会被同时爬取，数据保存在一起。
 LINK: [
-     { link: "https://www.yyyzyyyz.cn/link/", theme: "butterfly" },  # 友链页地址1，修改为你的友链页地址
+     { link: "https://www.smatrix.top/link/", theme: "common2" },  # 友链页地址1，修改为你的友链页地址
 #     { link: "https://noionion.top/link/", theme: "butterfly" }, # 友链页地址2
 #     { link: "https://immmmm.com/about/", theme: "common1" }, # 友链页地址3
 #     ...
@@ -36,11 +36,33 @@ SETTINGS_FRIENDS_LINKS: {
         # 示例1：
         ["贰猹の小窝", "https://noionion.top/", "https://pub-noionion.oss-cn-hangzhou.aliyuncs.com/head.jpg"],
         ["Akilarの糖果屋", "https://akilar.top/", "https://akilar.top/images/headimage.png"],
+        ["安知鱼", "https://blog.anheyu.com/", "https://bu.dusays.com/2023/04/27/64496e511b09c.jpg"],
+        ["Ariasakaの小窝", "https://yisous.xyz/", "https://bu.dusays.com/2022/12/15/639a9ebbbc1ad.jpg"],
+        ["张洪Heo", "https://blog.zhheo.com/", "https://bu.dusays.com/2022/12/28/63ac2812183aa.png"],
+        ["杜老师说", "https://dusays.com/", "https://cdn.dusays.com/avatar.png"],
+        ["轻笑Chuckle", "https://www.qcqx.cn/", "https://www.qcqx.cn/img/head.webp"],
+        ["shine", "https://blog.shineyu.cn/", "https://blog.shineyu.cn/img/shineyu_avatar.webp"],
+        ["Ethan.Tzy", "https://fe32.top/", "https://bu.dusays.com/2022/05/02/626f92e193879.jpg"],
+        ["奔跑中的奶酪", "https://www.runningcheese.com/", "https://bu.dusays.com/2023/08/29/64eddfeeed31b.png"],
+        ["Adil"," https://blog.adil.com.cn"," https://tucdn.wpon.cn/2023/04/06/15dbbb2004b44.jpg"],
+        ["风记星辰"," https://www.thyuu.com"," https://std.thyuu.com/logo.webp"],
+        ["Leonus"," https://blog.leonus.cn/"," https://q1.qlogo.cn/g?b=qq&nk=990320751&s=5"],
+        ["木木木木木"," https://blog.leonus.cn/"," https://bu.dusays.com/2023/08/29/64eddeff35f9e.webp"],
+        ["JayHrn"," https://blog.jayhrn.com"," https://npm.elemecdn.com/hrn-blog@1.0.0/avatar.svg"],
+        ["满心记"," https://blog.lovelu.top/"," https://bu.dusays.com/2023/01/29/63d5bf7fa0d2c.png"],
+        ["Tianli"," https://tianli-blog.club/"," https://q2.qlogo.cn/headimg_dl?dst_uin=507249007&spec=640"],
+        ["小冰博客"," https://zfe.one"," https://zfe.space/images/headimage.png"],
+        ["Eurkon"," https://blog.eurkon.com"," https://blog.eurkon.com/images/user/avatar.jpg"],
+        ["刘洪亮Leo的博客"," https://lhliang.com"," https://lhliang.com/img/avatar.webp"],
+        ["阳光下的小宁宁"," https://ning0818.top"," https://jsd.onmicrosoft.cn/gh/ning0818/cdn-files@blogcdn/logo.webp"],
+        ["Black Flies"," https://www.yyyzyyyz.cn/"," https://npm.elemecdn.com/imgscdn/img/202111191951780.JPG"],
+        ["七鳄の学习格"," https://blog.gmcj0816.top/"," https://blog.gmcj0816.top/img/SeriousWission_TouXiangPic.png"],
+        ["Fomalhaut"," https://www.fomal.cc/"," https://www.fomal.cc/assets/avatar.webp"],
         # 示例2：使用suffix的配置如下
         # 程序目前自动获取 "atom.xml", "feed/atom", "rss.xml", "rss2.xml", "feed", "index.xml" 这些后缀
         # 如果目标地址的后缀不在其中，就可以在这里添加
         # 比如 https://elizen.me/hello.xml ，填写：
-        ["elizen", "https://elizen.me/", "https://akilar.top/images/headimage.png", "hello.xml"]
+        # ["elizen", "https://elizen.me/", "https://akilar.top/images/headimage.png", "hello.xml"]
     ]
 }
 
@@ -49,7 +71,7 @@ SETTINGS_FRIENDS_LINKS: {
 GITEE_FRIENDS_LINKS: {
     enable: false, # true 开启gitee issue兼容
     type: "normal",  # volantis/stellar用户请在这里填写volantis
-    owner:  "ccknbc",  # 填写你的gitee用户名
+    owner:  "Kayin",  # 填写你的gitee用户名
     repo:  "blogroll",  # 填写你的gitee仓库名
     state:  "open",  # 填写抓取的issue状态(open/closed)
 }
@@ -59,8 +81,8 @@ GITEE_FRIENDS_LINKS: {
 GITHUB_FRIENDS_LINKS: {
     enable: false, # true 开启github issue兼容
     type: "normal",  # volantis/stellar用户请在这里填写volantis
-    owner: "ccknbc",  # 填写你的github用户名
-    repo: "ccknbc-actions",  # 填写你的github仓库名
+    owner: "QzKevin",  # 填写你的github用户名
+    repo: "hexo-circle-of-friends",  # 填写你的github仓库名
     state: "open",  # 填写抓取的issue状态(open/closed)
     label: "active",  # 填写抓取的issue标签
 }
